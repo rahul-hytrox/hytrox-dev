@@ -717,7 +717,7 @@ article { display: none; }
 .project-img {
     position: relative;
     width: 250px;
-    height: 250px !important;
+    height:auto;
     border-radius: 16px;
     overflow: hidden;
     margin-bottom: 15px;
@@ -975,7 +975,7 @@ textarea.form-input {
 @media (min-width: 450px) {
     .clients-item { min-width: calc(33.33% - 10px); }
 
-    .project-img, .blog-banner-box { height: auto; }
+    .project-img, .blog-banner-box { height: auto;width: auto; }
 }
 
 @media (min-width: 580px) {
@@ -1130,7 +1130,7 @@ textarea.form-input {
         margin-bottom: 0;
     }
 
-        .modal-avatar-box img { width: 65px; }
+    .modal-avatar-box img { width: 65px; }
 
     .modal-img-wrapper > img {
         display: block;
@@ -1186,7 +1186,7 @@ textarea.form-input {
         padding: 16px 20px;
     }
 
-        .form-btn ion-icon { font-size: 18px; }
+    .form-btn ion-icon { font-size: 18px; }
 }
 
 @media (min-width: 768px) {
