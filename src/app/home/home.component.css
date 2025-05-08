@@ -716,19 +716,13 @@ article { display: none; }
 
 .project-img {
     position: relative;
-    width: 250px;
-    height:auto;
+    width: 100%;
+    height: 265px;
     border-radius: 16px;
     overflow: hidden;
     margin-bottom: 15px;
 }
 
-/* .project-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: var(--transition1);
-} */
 .project-img .web-images{
     width: 100%;
     height: 100%;
@@ -974,8 +968,6 @@ textarea.form-input {
 
 @media (min-width: 450px) {
     .clients-item { min-width: calc(33.33% - 10px); }
-
-    .project-img, .blog-banner-box { height: auto;width: auto; }
 }
 
 @media (min-width: 580px) {
@@ -1397,4 +1389,8 @@ textarea.form-input {
     left: -12px;
     top: -5px;
     font-size: large;
+}
+.menu-bar__ls{display:none;}
+@media screen and (max-width: 579px) {
+    .menu-bar__ls{display:block;}
 }
